@@ -1,0 +1,29 @@
+---
+name: Feature Request
+description: Propose a new feature
+labels: ["type: feature", "status: needs triage"]
+body:
+  - type: dropdown
+    attributes:
+      label: Feature type
+      options:
+        - New model/data type
+        - Import enhancement
+        - Query/API enhancement
+        - Plugin system
+        - Performance improvement
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed functionality
+      description: Describe the feature in detail.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Use case
+      description: Explain how this would benefit users.
+    validations:
+      required: true

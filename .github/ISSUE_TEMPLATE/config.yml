@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/yourusername/django-openflights#readme
+    about: "Check the documentation before opening an issue."
+  - name: Discussion
+    url: https://github.com/yourusername/django-openflights/discussions
+    about: "For questions or discussions, start a discussion instead."
+  - name: OpenFlights Data
+    url: https://openflights.org/data.php
+    about: "For questions about OpenFlights data itself."
